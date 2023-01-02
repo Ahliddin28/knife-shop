@@ -1,0 +1,163 @@
+
+body{
+  overflow: hidden;
+}.flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.nav1{
+  width: 100%;
+  padding: 1rem 6%;
+  background: #141414;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav1 #after{
+  display: none;
+}
+.navbar{
+  padding:10px 6%;
+}
+.search{
+  border: 1px solid;
+  padding: 10px 6%;
+  border-radius: 5px;
+  height: 65%;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+#input{
+  border: none;
+  outline: none;
+}
+.first-header{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #141414;
+  padding:20px 6%;
+} 
+.first-header a{
+  color: #fff;
+  transition: all 0.5s ease;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #141414;
+}
+.first-header a:hover{
+  color: #E8AA31;
+  border-bottom: 1px solid #E8AA31;
+}
+.swiper{
+  width: 100%;
+  height: 600px
+}
+.mySwiper .swiper-wrapper .swiper-slide{
+  margin: 5px;
+}
+.third{
+  background-image: url(bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: #141414;
+}
+.fourth #with{
+  width: 45%;
+}
+.Fifth .box{
+  width: 20%;
+  margin: 2px;
+}
+.sixth{
+  background-image: url(bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-color: #141414;
+}
+.footer .flex div{
+ width:20%
+}
+.footer .flex{
+  align-items: flex-start;
+}
+.fot{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:-5%;
+}
+.fot input{
+  background: #333;
+  border: 1px solid white;
+  outline: none;
+  padding: 5px 6%;
+}
+.fot label{
+  background: #E8AA31;
+  padding: 6.5px;
+  outline: none;
+
+}
+
+#btn{
+  background-color: #E8AA31;
+  transition: all 0.5s ease;
+  color: #fff;
+}
+#btn:hover{
+  background: none;
+  color: #E8AA31;
+}
+
+
+
+@media (max-width:1024px){
+  .fot {
+    margin-left: 5%;
+  }
+}
+
+@media(max-width:768px){
+  .nav1 #after{
+    display: block;
+  }
+  .nav1 #before{
+    display: none;
+  }
+  .fourth #with{
+    width: 100%;
+  }
+  .Fifth .box{
+    width: 40%;
+    margin: 4px 0;
+  }
+  .footer .flex div{
+    width:40%;
+    margin: 10px;
+   }
+   .fot{
+    margin-left: -10%;
+  }
+}
+@media(max-width:500px){
+  .Fifth .box{
+    width: 100%;
+    margin: 4px 0;
+  }
+  .footer .flex div{
+    width:100%;
+    margin: 10px;
+   }
+}
